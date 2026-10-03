@@ -31,8 +31,6 @@ src/
 firestore.rules            security rules
 ```
 
-## Data model
-`rooms/{roomId}` { name, createdBy, createdAt } and `rooms/{roomId}/messages/{id}` { text, uid, name, createdAt }
 
 ## Deploy (optional)
 Vercel/Netlify: build `npm run build`, output `dist`, add the four `VITE_FIREBASE_*` variables. Then add your deployed domain under Firebase **Authentication > Settings > Authorized domains**.
